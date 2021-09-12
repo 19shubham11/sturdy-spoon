@@ -1,0 +1,33 @@
+{
+  "name": "netlify-func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --p tsconfig.json",
+    "start": "node .",
+    "format": "prettier 'netlify/**/*.ts' --write",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19shubham11/sturdy-spoon.git"
+  },
+  "author": "Shubham Chaturvedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19shubham11/sturdy-spoon/issues"
+  },
+  "homepage": "https://github.com/19shubham11/sturdy-spoon#readme",
+  "dependencies": {
+    "@netlify/functions": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.9.1",
+    "jest": "^27.1.1",
+    "prettier": "^2.4.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  }
+}
