@@ -4,7 +4,7 @@ import * as utils from '../utils/utils'
 const handler: Handler = async (event, context) => {
     return {
         statusCode: 200,
-        body: JSON.stringify({ key: utils.getRandomString }),
+        body: JSON.stringify({ key: utils.getRandomString() }),
     }
 }
 
