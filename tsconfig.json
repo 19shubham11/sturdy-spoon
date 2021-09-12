@@ -17,7 +17,7 @@
         }
     },
     "include": [
-        "netlify/**/*"
+        "src/**/*"
     ],
     "exclude": [
        "**/**/*_test.ts"
