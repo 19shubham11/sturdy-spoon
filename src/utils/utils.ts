@@ -9,6 +9,7 @@ function getRandomNumber(len: number): number | never {
     if (len < 1) {
         throw new Error('len should be greater than or equal to 1')
     }
+
     const base = Math.pow(10, len)
     return Math.floor(Math.random() * base)
 }

@@ -13,11 +13,13 @@ describe('utils', () => {
         it('should return a random number of given length', () => {
             const len = 6
             const num = utils.getRandomNumber(len)
+
             assert.strictEqual(num.toString().length, len)
         })
 
         it('should throw if len is less than 1', () => {
             const len = 0
+
             assert.throws(() => {
                 utils.getRandomNumber(len)
             }, /len should be greater than or equal to 1/)
